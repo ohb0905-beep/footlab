@@ -1,0 +1,6 @@
+{
+  "name": "풋볼랩 코리아 (FootballLab KR) - 유럽 축구 빅데이터 분석 플랫폼",
+  "description": "피치 위 전술 지표(xG, xA, PPDA)와 구단 재정·지배구조(PSR, 주급 비율, 감가상각) 및 시대 보정 Z-스코어를 통합 분석하는 FotMob 스타일 유럽 축구 빅데이터 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

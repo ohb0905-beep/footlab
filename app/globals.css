@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-plus-jakarta), var(--font-noto-kr), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-display: var(--font-plus-jakarta), var(--font-noto-kr), sans-serif;
+  --font-mono: var(--font-jetbrains), var(--font-noto-kr), sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-plus-jakarta), var(--font-noto-kr), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-plus-jakarta), var(--font-noto-kr), sans-serif;
+    text-wrap: balance;
+  }
+}
+
+.font-mono {
+  font-family: var(--font-jetbrains), var(--font-noto-kr), sans-serif !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
