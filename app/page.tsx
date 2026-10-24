@@ -182,7 +182,7 @@ export default function FootballAnalyticsPage() {
             <div className="flex items-center gap-2 text-xs text-[#10B981] font-semibold">
               <span>유럽 5대 리그 통합 온·오프피치 빅데이터</span>
               <span aria-hidden="true">·</span>
-              <span>2024-25 시즌 기준</span>
+              <span>2026-27 실시간 시즌 연동</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
               {currentTabMeta.fullTitle}
